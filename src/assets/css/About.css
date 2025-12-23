@@ -1,0 +1,242 @@
+.about-section {
+  padding: 100px 0;
+  background: radial-gradient(
+    circle at top right,
+    #16002a,
+    #05010d
+  );
+}
+
+/* IMAGE CONTAINER */
+.about-image-wrapper {
+  width: 245px;
+  height: 420px; /* portrait friendly */
+  margin: auto;
+  padding: 8px;
+  border-radius: 24px; /* smooth corners */
+  background: linear-gradient(135deg, #7f00ff, #00f2ff);
+  box-shadow:
+    0 0 30px rgba(127, 0, 255, 0.5),
+    0 0 60px rgba(0, 242, 255, 0.3);
+}
+
+/* IMAGE */
+.about-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* ✅ FULL IMAGE */
+  border-radius: 18px;
+  background: #0b0f1a; /* padding area clean */
+}
+
+.about-intro {
+  color: #cfd9ff;
+  margin-bottom: 14px;
+}
+
+.about-cards .about-card {
+  background: rgba(11, 15, 26, 0.7);
+  padding: 24px;
+  border-radius: 16px;
+  height: 100%;
+  color: #dbe4ff;
+  transition: transform 0.3s ease;
+}
+
+.about-cards .about-card.highlight {
+  border: 1px solid rgba(0, 242, 255, 0.6);
+}
+
+.about-cards .about-card:hover {
+  transform: translateY(-6px);
+}
+
+.about-highlights ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-highlights li {
+  margin-bottom: 10px;
+  color: #b8c1ff;
+}
+
+.resume-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 999px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(135deg, #7f00ff, #00f2ff);
+  margin-bottom: 20px;
+}
+
+.about-socials {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.about-socials a {
+  padding: 8px 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(127, 0, 255, 0.5);
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.about-socials a:hover {
+  background: linear-gradient(135deg, #7f00ff, #00f2ff);
+  border-color: transparent;
+}
+
+
+.about-section {
+  padding: 140px 0;
+  background: radial-gradient(
+    circle at top left,
+    #1b0033,
+    #05010d 60%
+  );
+}
+
+/* IMAGE */
+.about-image-glow {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border-radius: 50%;
+  padding: 8px;
+  background: linear-gradient(135deg, #7f00ff, #00f2ff);
+  box-shadow:
+    0 0 30px rgba(127, 0, 255, 0.6),
+    0 0 60px rgba(0, 242, 255, 0.35);
+}
+
+.about-image-glow img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%; /* ✅ corners properly rounded */
+}
+
+/* TEXT */
+.about-title {
+  font-size: 42px;
+  margin-bottom: 18px;
+}
+
+.about-text {
+  color: #cfd9ff;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+/* ACTION BUTTONS */
+.about-actions {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.btn-resume {
+  padding: 14px 34px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #7f00ff, #00f2ff);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-outline {
+  padding: 14px 28px;
+  border-radius: 999px;
+  border: 1px solid rgba(127, 0, 255, 0.6);
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: linear-gradient(135deg, #7f00ff, #00f2ff);
+  border-color: transparent;
+}
+
+
+
+.about-section {
+  padding: 140px 0;
+  background: radial-gradient(
+    circle at top left,
+    #1b0033,
+    #05010d 60%
+  );
+}
+
+/* IMAGE */
+.about-image-glow {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border-radius: 50%;
+  padding: 8px;
+  background: linear-gradient(135deg, #7f00ff, #00f2ff);
+  box-shadow:
+    0 0 30px rgba(127, 0, 255, 0.6),
+    0 0 60px rgba(0, 242, 255, 0.35);
+}
+
+.about-image-glow img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%; /* ✅ corners properly rounded */
+}
+
+/* TEXT */
+.about-title {
+  font-size: 42px;
+  margin-bottom: 18px;
+}
+
+.about-text {
+  color: #cfd9ff;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+/* ACTION BUTTONS */
+.about-actions {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.btn-resume {
+  padding: 14px 34px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #7f00ff, #00f2ff);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-outline {
+  padding: 14px 28px;
+  border-radius: 999px;
+  border: 1px solid rgba(127, 0, 255, 0.6);
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: linear-gradient(135deg, #7f00ff, #00f2ff);
+  border-color: transparent;
+}
